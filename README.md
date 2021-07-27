@@ -23,12 +23,14 @@ To give you an impression of the kind of visualizations used, here is the plot f
 ![hr_by_year](https://user-images.githubusercontent.com/43187331/127239288-6ce04a1e-4742-4418-94c4-518be3736f92.jpg)
 Data basis: Deutscher Wetterdienst, averaged over individual values
 
+<br/>
 
 And here a graph that visualizes heavy rainfall events by weather station in Germany:
 
-![hr_by_station](https://user-images.githubusercontent.com/43187331/127239317-8de9d6ae-3e00-4f76-b24b-225e60940fff.jpg)
+![hr_by_station](https://user-images.githubusercontent.com/43187331/127239317-8de9d6ae-3e00-4f76-b24b-225e60940fff.jpg) <br/>
 Data basis: Deutscher Wetterdienst, averaged over individual values
 
+<br/>
 
 I also wrote a blog post on Medium that covers the findings of this project. You can read it [here](https://medium.com/@janikvalentin1/are-heavy-rainfall-events-increasing-in-frequency-in-germany-2129b5d9d448).  
 
