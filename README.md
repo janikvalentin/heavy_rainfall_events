@@ -11,17 +11,24 @@ from the German Meteorological Service. The result is a datasetset containing mo
 
 ### Findings
 
-Despite the high variance of yearly events, no significant increase or decrease in occurence nor intensity of heavy rainfall events could be detected.
-The analysis of regional differences revealed Bavaria and Baden-Wuerttemberg as the states most often affected by heavy rainfall events, 
+Despite the high variance of annual events, there has been no significant increase in heavy rain events in Germany so far. 
+While the average intensity has also remained constant over the last 100 years, 
+there have been peaks in several years this century, and it remains to be seen whether 
+this trend will continue.
+The analysis of regional differences revealed Bavaria and Baden-Wuerttemberg as the states most often affected by heavy rain events, 
 with weather stations in close proximity to mountain ranges showing higher than average counts. Most events occur in the summer months from June to August.
 
-To give you an impression of the kind of visualizations used, here is the plot for the development of occurrences of heavy rainfall events in Germany:
+To give you an impression of the kind of visualizations used, here is the plot for the development of occurrences of heavy rain events in Germany:
 
-![hr_by_year](https://user-images.githubusercontent.com/43187331/126912377-ab0b7aa5-a091-48df-9b07-a8e1bcacc7ef.jpg)
+![hr_by_year](https://user-images.githubusercontent.com/43187331/127239288-6ce04a1e-4742-4418-94c4-518be3736f92.jpg)
+Data basis: Deutscher Wetterdienst, averaged over individual values
+
 
 And here a graph that visualizes heavy rainfall events by weather station in Germany:
 
-![hr_by_station](https://user-images.githubusercontent.com/43187331/126912325-08001967-9f0d-41af-8d53-e96234bd5bc1.jpg)
+![hr_by_station](https://user-images.githubusercontent.com/43187331/127239317-8de9d6ae-3e00-4f76-b24b-225e60940fff.jpg)
+Data basis: Deutscher Wetterdienst, averaged over individual values
+
 
 I also wrote a blog post on Medium that covers the findings of this project. You can read it [here](https://medium.com/@janikvalentin1/are-heavy-rainfall-events-increasing-in-frequency-in-germany-2129b5d9d448).  
 
