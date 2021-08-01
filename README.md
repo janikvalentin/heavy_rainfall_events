@@ -2,16 +2,16 @@
 
 On July 14th 2021, the amount of precipitation exceeded 100 liters per m² in one day in parts of North Rhine-Westphalia and Rhineland-Palatinate. 
 The consequences were more than 100 people losing their lives to the floods and billions of euros in material damage. This project seeks to explore if there is 
-an increase in occurrence and intensity of heavy rainfall events in Germany. 
+an increase in occurrence and intensity of heavy rain events in Germany. 
 
 Data covering the recordings of 1,084 weather stations across Germany is gathered
-from the German Meteorological Service. The result is a datasetset containing more than 16.5 million observations in the time period 1900-2020. 
+from the German Weather Service (Deutscher Wetterdienst). The result is a datasetset containing more than 16.5 million observations for the period 1900-2020. 
 
 <br/>
 
 ### Findings
 
-Despite the high variance of annual events, there has been no significant increase in heavy rain events in Germany so far. 
+Despite the high variance of annual events, there has been no significant increase in heavy rain events in Germany over the observed period. 
 While the average intensity has also remained constant over the last 100 years, 
 there have been peaks in several years this century, and it remains to be seen whether 
 this trend will continue.
@@ -25,7 +25,7 @@ Data basis: Deutscher Wetterdienst, averaged over individual values
 
 <br/>
 
-And here a graph that visualizes heavy rainfall events by weather station in Germany:
+And here a graph that visualizes heavy rain events by weather station in Germany:
 
 ![hr_by_station](https://user-images.githubusercontent.com/43187331/127239317-8de9d6ae-3e00-4f76-b24b-225e60940fff.jpg) <br/>
 Data basis: Deutscher Wetterdienst, averaged over individual values
@@ -40,8 +40,8 @@ I also wrote a blog post on Medium that covers the findings of this project. You
 
 ``scraper.ipynb`` 
 
-This python script is responsible for downloading the data from the German Meteorological Service and saving the files in the data/ folder. 
-Note that the script will download all files that are included in the zip compressed folder. But only files in the format 'produkt_klima_tag_[date]_[date]_[weather_station_id].txt'
+This python script is responsible for downloading the data from the German Weather Service (Deutscher Wetterdienst) and saving the files in the data/ folder. 
+Note that the script will download all files that are included in the zip compressed folder for each weather station. But only files in the format 'produkt_klima_tag_[date]_[date]_[weather_station_id].txt'
 are required for this project. All other files were manually deleted. 
 
 ``Extreme_weather_phenomena.ipynb``
@@ -78,4 +78,4 @@ and should be good to go.
 
 ### Acknowledgements
 
-This Project would not have been possible without the publicly available data from the German Meteorological Service (Deutscher Wetterdienst). You can check out all of their open datasets [here](https://cdc.dwd.de/portal/).
+This Project would not have been possible without the publicly available data from the German Weather Service (Deutscher Wetterdienst). You can check out all of their open datasets [here](https://cdc.dwd.de/portal/).
